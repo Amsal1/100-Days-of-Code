@@ -1,5 +1,3 @@
-#Step 3
-
 import random
 import hangman_art
 import hangman_words
@@ -12,13 +10,12 @@ lives = 6
 
 print(hangman_art.logo)
 #Testing code
-print(f'Pssst, the solution is {chosen_word}.')
+#print(f'Pssst, the solution is {chosen_word}.')
 
 #Create blanks
 display = []
 for i in range(0,len(chosen_word)):
     display += '_'
-
 
 
 while not end_of_game:
