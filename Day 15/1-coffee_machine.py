@@ -1,3 +1,4 @@
+from art import logo
 MENU = {
     "espresso": {
         "ingredients": {
@@ -39,6 +40,7 @@ def get_report():
 
 Money=0.0
 game_is_true = True
+print(logo)
 while game_is_true:
     user_input = input("What would you like? (espresso/latte/cappuccino): ").lower()
     if user_input == "report":
