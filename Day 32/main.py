@@ -9,7 +9,7 @@ if day_of_week == 0:
         lines = file.readlines()
     quote_of_the_day = random.choice(lines)
     my_email = "ak47.repacker@gmail.com"
-    password = "kaneezsabri123"
+    password = ""
     with smtplib.SMTP("smtp.gmail.com") as connection:
         connection.starttls()
         connection.login(user=my_email, password=password)
